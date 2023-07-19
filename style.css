@@ -86,20 +86,46 @@ p.main_heading{
 .item:nth-child(3n) {
     width: 100%;
 }
-.vision{
+.vision {
     background-color: #f2dcd3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-p.vision_heading{
+.vision_content{
+   display: grid;
+   max-width: 1170px;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 50px 30px;
+
+}
+.vision_heading{
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     padding: 30px;
+    text-transform: capitalize;
 }
+
 
 .mission{
     background-color: #9bd3cb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-p.mission_heading{
+.mission_content{
+    display: grid;
+   max-width: 1170px;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 50px 30px;
+}
+.mission img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+.mission_heading{
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
@@ -113,4 +139,11 @@ p.why_heading{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     padding: 30px;
+}
+
+.vision img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+
 }
