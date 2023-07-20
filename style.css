@@ -137,7 +137,7 @@ p.main_heading{
     width: 90%;
     height: 90%;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 .mission_heading{
     font-size: 3rem;
